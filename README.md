@@ -58,6 +58,8 @@ Note: the "gh-pages" branch is considered to be the current stable release.  The
         sudo ./xiotest
         sudo ./csitest
 
+Yes, I could/should have written a single program which accepts the GPIO number as a command-line argument, but I wrote it before I knew about CSI lines, and once I found out about them, I just did a quick-and-dirty clone of the source file.  This kind of test program is usually used and discarded once the measurements are taken; I'm only saving them as a record of how the measurements were taken.  And yes, I'm feeling guilty and rationalizing laziness.  :-)
+
 ## Release Notes
 
 * 0.1 (31-Jan-2016)
